@@ -1,0 +1,1 @@
+Example blog spot site
