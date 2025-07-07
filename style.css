@@ -1,0 +1,264 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #F4D04E;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow:  10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.container:hover {
+    transform: scale(1);
+    box-shadow: 20px 10px rgba(0, 0, 0, 0.2);
+}
+#blog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+button {
+    background-color: #F4D04E;
+    color: white;
+    padding:10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-bottom: 20px;   
+}
+button:hover {
+    background-color: #F4D04E;
+    color: black;
+}
+p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+#profile     {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #000000;  
+    border-radius: 50%;
+    margin-right: 10px;
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 70%;
+  }
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+    #blog-image {
+        width: 100%;
+        height: auto;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+    p {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    #profile {
+        width: 25px;
+        height: 25px;
+    }
+    body {
+        font-size: 14px;
+    }
+
+}
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        padding: 15px;
+    }
+    #blog-image {
+        width: 100%;
+        height: auto;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+    p {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 1024px) {
+    .container {
+        width: 70%;
+        padding: 15px;
+    }
+    #blog-image {
+        width: 100%;
+        height: auto;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+    p {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        width: 60%;
+        padding: 15px;
+    }
+    #blog-image {
+        width: 100%;
+        height: auto;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+    p {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 1400px) {
+    .container {
+        width: 50%;
+        padding: 15px;
+    }
+    #blog-image {
+        width: 100%;
+        height: auto;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+    p {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 1600px) {
+    .container {
+        width: 45%;
+        padding: 15px;
+    }
+    #blog-image {
+        width: 100%;
+        height: auto;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+    p {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 1800px) {
+    .container {
+        width: 40%;
+        padding: 15px;
+    }
+    #blog-image {
+        width: 100%;
+        height: auto;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+    p {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 2000px) {
+    .container {
+        width: 35%;
+        padding: 15px;
+    }
+    #blog-image {
+        width: 100%;
+        height: auto;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+    p {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 2200px) {
+    .container {
+        width: 30%;
+        padding: 15px;
+    }
+    #blog-image {
+        width: 100%;
+        height: auto;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+    p {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+}
